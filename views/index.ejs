@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Survey-form</title>
+    </head>
+    <body>
+    <form action="/result" method="post">
+        <p>Your name: </p>
+        <input type="text" name="name">
+        <p>Dojo Location:</p>
+        <select name="location">
+            <option value="SJ">SJ</option>
+            <option value="NY">NY</option>
+            <option value="Seattle">Seattle</option>
+        </select>
+        <p>Favorite Lanhuage:</p>
+        <select name="lanaguage">
+            <option value="Python">Python</option>
+            <option value="MEAN">MEAN</option>
+            <option value="Django">Django</option>
+        </select>
+        <p>Comment: </p>
+        <textarea name="comment"></textarea>
+
+        <input type="submit" value="Add">
+    </form>
+    </body>
+</html>
